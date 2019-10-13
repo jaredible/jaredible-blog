@@ -79,3 +79,8 @@ theme: chic
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type:
+
+admin:
+  username: jaredible
+  password_hash: $2a$10$smiQgb67McY5IAu3KzaGUOkh/wg8NlCv3kSy3SPso5sS9fovS7vPO
+  secret: rubiks
