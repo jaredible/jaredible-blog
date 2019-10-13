@@ -1,5 +1,5 @@
 # Header
-navname: Jaredible's Blog
+navname: Jared's Blog
 
 # navigatior items
 nav:
@@ -12,11 +12,11 @@ nav:
 favicon: /favicon.ico
 
 # Profile
-nickname: Jared Diehl
+nickname: Jaredible
 
 ### this variable is MarkDown form.
-description: Lorem ipsum dolor sit amet, **consectetur adipiscing elit.** <br>Fusce eget urna vitae velit *eleifend interdum at ac* nisi.
-avatar: /image/avatar.png
+description: Focused and motivated software developer proactively furthering <br>my knowledge in system design and architecture for web applications.
+avatar: /image/0.jpg
 
 # main menu navigation
 ## links key words should not be changed.
@@ -26,26 +26,26 @@ links:
   Blog: /archives
 #  Category:
 #  Tags:
-#  Link:
-#  Resume:
+  Link: https://www.jaredible.net
+  Resume:
 #  Publish:
 #  Trophy:
 #  Gallary:
 #  RSS:
 #  AliPay:
 #  ZhiHu: https://www.zhihu.com/people/sirice
-#  LinkedIn:
-#  FaceBook:
-#  Twitter:
+  LinkedIn: https://www.linkedin.com/in/jared-michael-diehl
+  FaceBook: https://www.facebook.com/jared.m.diehl
+  Twitter: https://twitter.com/jaredmdiehl
 #  Skype:
 #  CodeSandBox:
-#  CodePen:
+  CodePen: https://codepen.io/Jaredible
 #  Sketch:
 #  Gitlab:
 #  Dribble:
-#  Instagram:
-#  Reddit:
-#  YouTube:
+  Instagram: https://www.instagram.com/jaredmdiehl/
+  Reddit: https://www.reddit.com/user/Jaredible
+  YouTube: https://www.youtube.com/channel/UCAUiywLH61_vV33R9n1hLvQ
 #  QQ:
 #  Weibo:
 #  WeChat:
