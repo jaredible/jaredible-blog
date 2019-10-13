@@ -1,5 +1,5 @@
 # Header
-navname: Bentham's Blog
+navname: Jaredible's Blog
 
 # navigatior items
 nav:
@@ -12,11 +12,11 @@ nav:
 favicon: /favicon.ico
 
 # Profile
-nickname: Jeremy Bentham
+nickname: Jared Diehl
 
 ### this variable is MarkDown form.
 description: Lorem ipsum dolor sit amet, **consectetur adipiscing elit.** <br>Fusce eget urna vitae velit *eleifend interdum at ac* nisi.
-avatar: /image/avatar.jpeg
+avatar: /image/avatar.png
 
 # main menu navigation
 ## links key words should not be changed.
@@ -25,7 +25,7 @@ avatar: /image/avatar.jpeg
 links:
   Blog: /archives
 #  Category:
-#  Tags: 
+#  Tags:
 #  Link:
 #  Resume:
 #  Publish:
@@ -33,7 +33,7 @@ links:
 #  Gallary:
 #  RSS:
 #  AliPay:
-  ZhiHu: https://www.zhihu.com/people/sirice
+#  ZhiHu: https://www.zhihu.com/people/sirice
 #  LinkedIn:
 #  FaceBook:
 #  Twitter:
@@ -43,13 +43,13 @@ links:
 #  Sketch:
 #  Gitlab:
 #  Dribble:
-  Instagram:
-  Reddit:
+#  Instagram:
+#  Reddit:
 #  YouTube:
 #  QQ:
 #  Weibo:
 #  WeChat:
-  Github: https://github.com/Siricee
+  Github: https://github.com/Jaredible
 
 # how links show: you have 2 choice--text or icon.
 links_text_enable: false
