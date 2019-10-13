@@ -1,22 +1,24 @@
 # Header
-navname: Jared's Blog
+navname: Jaredible
 
 # navigatior items
 nav:
   Posts: /archives
   Categories: /category
   Tags: /tag
+  Links: /links
+  Gallery: /gallery
   About: /about
 
 # favicon
 favicon: /favicon.ico
 
 # Profile
-nickname: Jaredible
+nickname: Jared Diehl
 
 ### this variable is MarkDown form.
-description: Focused and motivated software developer proactively furthering <br>my knowledge in system design and architecture for web applications.
-avatar: /image/0.jpg
+description: Motivated software developer proactively furthering <br>my knowledge in system design and architecture.
+avatar: /image/avatar.jpg
 
 # main menu navigation
 ## links key words should not be changed.
@@ -26,8 +28,8 @@ links:
   Blog: /archives
 #  Category:
 #  Tags:
-  Link: https://www.jaredible.net
-  Resume:
+#  Link: https://www.jaredible.net
+  Resume: https://www.jaredible.net/resume.pdf
 #  Publish:
 #  Trophy:
 #  Gallary:
@@ -35,17 +37,17 @@ links:
 #  AliPay:
 #  ZhiHu: https://www.zhihu.com/people/sirice
   LinkedIn: https://www.linkedin.com/in/jared-michael-diehl
-  FaceBook: https://www.facebook.com/jared.m.diehl
-  Twitter: https://twitter.com/jaredmdiehl
+#  FaceBook: https://www.facebook.com/jared.m.diehl
+#  Twitter: https://twitter.com/jaredmdiehl
 #  Skype:
 #  CodeSandBox:
   CodePen: https://codepen.io/Jaredible
 #  Sketch:
 #  Gitlab:
 #  Dribble:
-  Instagram: https://www.instagram.com/jaredmdiehl/
-  Reddit: https://www.reddit.com/user/Jaredible
-  YouTube: https://www.youtube.com/channel/UCAUiywLH61_vV33R9n1hLvQ
+#  Instagram: https://www.instagram.com/jaredmdiehl/
+#  Reddit: https://www.reddit.com/user/Jaredible
+#  YouTube: https://www.youtube.com/channel/UCAUiywLH61_vV33R9n1hLvQ
 #  QQ:
 #  Weibo:
 #  WeChat:
