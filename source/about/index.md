@@ -9,9 +9,9 @@ layout: about
 <iframe src="https://ghbtns.com/github-btn.html?user=Jaredible&type=follow&count=true&size=large" frameborder="0" scrolling="0" width="220px" height="30px"></iframe>
 {% endraw %}
 
-A computer science student, trying to become a software engineer.
+A computer science student that is trying to become a software engineer.
 
-My email: <jared@jaredible.net> welcome to send a letter.
+You are welcome to email me at <jared@jaredible.net>.
 
 GitHub Chart:
 

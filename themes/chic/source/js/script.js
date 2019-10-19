@@ -58,8 +58,32 @@ document.ready(
             document.getElementsByClassName('toggleBtn')[0].addEventListener('click', () => {
                 if (document.getElementsByTagName('body')[0].classList.contains('dark-theme')) {
                     document.getElementsByTagName('body')[0].classList.remove('dark-theme');
+                    //document.getElementById('disqus_thread').getElementsByTagName('body')[0].classList.remove('dark');
+                    document.getElementById('canvas-nest').remove();
+                    document.getElementById('nest-canvas').remove();
+                    var script = document.createElement('script');
+                    script.setAttribute('id', 'canvas-nest');
+                    script.setAttribute('type', 'text/javascript');
+                    script.setAttribute('color', '0,0,0');
+                    script.setAttribute('opacity', '0.3');
+                    script.setAttribute('zindex', '-2');
+                    script.setAttribute('count', '99');
+                    script.setAttribute('src', '/js/canvas-nest.js');
+                    document.getElementsByTagName('body')[0].appendChild(script);
                 } else {
                     document.getElementsByTagName('body')[0].classList.add('dark-theme');
+                    //document.getElementById('disqus_thread').getElementsByTagName('body')[0].classList.add('dark');
+                    document.getElementById('canvas-nest').remove();
+                    document.getElementById('nest-canvas').remove();
+                    var script = document.createElement('script');
+                    script.setAttribute('id', 'canvas-nest');
+                    script.setAttribute('type', 'text/javascript');
+                    script.setAttribute('color', '255,255,255');
+                    script.setAttribute('opacity', '0.3');
+                    script.setAttribute('zindex', '-2');
+                    script.setAttribute('count', '99');
+                    script.setAttribute('src', '/js/canvas-nest.js');
+                    document.getElementsByTagName('body')[0].appendChild(script);
                 }
                 window.localStorage &&
                 window.localStorage.setItem('theme', document.body.classList.contains('dark-theme') ? 'dark' : 'light',)
