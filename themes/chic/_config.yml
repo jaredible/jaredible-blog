@@ -84,7 +84,7 @@ page_title_enable: true
 ## You can customize the date format as defined in
 ## http://momentjs.com/docs/#/displaying/format/
 date_format: MMMM D, YYYY
-time_format: H:mm:ss
+time_format: LT
 
 # stylesheets loaded in the <head>
 stylesheets:

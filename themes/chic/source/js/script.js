@@ -49,7 +49,7 @@ document.ready(
             if (isDark) {
                 document.getElementsByTagName('body')[0].classList.add('dark-theme');
                 // mobile
-                document.getElementById("mobile-toggle-theme").innerText = "· Dark";
+                document.getElementById("mobile-toggle-theme").innerText = " · Dark";
                 document.getElementById('canvas-nest').remove();
                 document.getElementById('nest-canvas').remove();
                 var script = document.createElement('script');
@@ -64,7 +64,7 @@ document.ready(
             } else {
                 document.getElementsByTagName('body')[0].classList.remove('dark-theme');
                 // mobile
-                document.getElementById("mobile-toggle-theme").innerText = "· Light";
+                document.getElementById("mobile-toggle-theme").innerText = " · Light";
             }
             document.getElementsByClassName('toggleBtn')[0].addEventListener('click', () => {
                 if (document.getElementsByTagName('body')[0].classList.contains('dark-theme')) {
