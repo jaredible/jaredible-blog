@@ -89,6 +89,7 @@ time_format: LT
 # stylesheets loaded in the <head>
 stylesheets:
   - /css/style.css
+  - /css/test.css
 
 # scripts loaded in the end of the body
 scripts:
