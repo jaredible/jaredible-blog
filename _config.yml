@@ -84,3 +84,10 @@ deploy:
 
 spotify:
   size: 'large'
+
+githubEmojis:
+  enable: true
+  className: github-emoji
+  inject: true
+  styles:
+  customEmojis:
