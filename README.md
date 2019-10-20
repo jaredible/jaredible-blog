@@ -17,5 +17,5 @@ npm install
 ## Deployment
 
 ```
-hexo server
+npm run server
 ```
