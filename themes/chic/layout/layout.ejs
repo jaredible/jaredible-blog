@@ -1,16 +1,22 @@
 <!DOCTYPE html>
 <html lang="<%= config.language %>">
+
 <head>
-    <%- partial('_partial/head',{cache: true}) %>
+  <%- partial('_partial/head',{cache: true}) %>
+  <link rel="stylesheet" href="/css/animate.css">
+  <link rel="stylesheet" href="/css/rubiks-cube.css">
 </head>
+
 <body>
-    <div class="wrapper">
-        <%- partial('_partial/header',{cache: true}) %>
-        <div class="main">
-            <%- body %>
-        </div>
-        <%- partial('_partial/footer',{cache: true}) %>
+  <div class="wrapper">
+    <%- partial('_partial/header',{cache: true}) %>
+    <div class="main">
+      <%- body %>
     </div>
-    <script id="canvas-nest" type="text/javascript" color="0,0,0" opacity="0.3" zindex="-2" count="99" src="/js/canvas-nest.js"></script>
+    <%- partial('_partial/footer',{cache: true}) %>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script id="canvas-nest" type="text/javascript" color="0,0,0" opacity="0.3" zindex="-2" count="99" src="/js/canvas-nest.js"></script>
 </body>
+
 </html>
