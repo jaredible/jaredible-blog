@@ -91,3 +91,13 @@ githubEmojis:
   inject: true
   styles:
   customEmojis:
+
+flowchart:
+  # raphael:   # optional, the source url of raphael.js
+  # flowchart: # optional, the source url of flowchart.js
+  options: # options used for `drawSVG`
+    scale: 1
+    line-width: 2
+    line-length: 50
+    text-margin: 10
+    font-size: 12
