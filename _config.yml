@@ -101,3 +101,9 @@ flowchart:
     line-length: 50
     text-margin: 10
     font-size: 12
+
+admin:
+    name: hexo
+    password: hey
+    secret: hey hexo
+    expire: 60*1
