@@ -87,13 +87,15 @@ document.ready(
     _Blog.toggleTheme();
 
     // ready function.
-
+    setBackground('0,0,0');
   }
 );
 
 function setBackground(color) {
-  document.getElementById('canvas-nest').remove();
-  document.getElementById('nest-canvas').remove();
+  var ele1 = document.getElementById('canvas-nest');
+  var ele2 = document.getElementById('nest-canvas');
+  if (ele1) ele1.remove();
+  if (ele2) ele2.remove();
   var script = document.createElement('script');
   script.setAttribute('id', 'canvas-nest');
   script.setAttribute('type', 'text/javascript');
