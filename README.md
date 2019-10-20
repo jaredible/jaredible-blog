@@ -9,13 +9,13 @@
 ### Install
 
 ```
-git clone https://github.com/jaredible/jaredible.net.git
-cd jaredible.net
-npm install
+$ git clone https://github.com/jaredible/jaredible.net.git
+$ cd jaredible.net
+$ npm install
 ```
 
 ## Deployment
 
 ```
-npm run server
+$ npm run server
 ```
