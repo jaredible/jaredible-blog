@@ -10,13 +10,7 @@
 
 ```
 git clone https://github.com/jaredible/jaredible.net.git
-```
-
-```
 cd jaredible.net
-```
-
-```
 npm install
 ```
 
