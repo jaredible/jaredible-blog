@@ -40,10 +40,12 @@ document.ready(
       document.getElementById("switch_default").checked = true;
       // mobile
       document.getElementById("mobile-toggle-theme").innerText = " · Dark";
+      setBackground('255,255,255');
     } else {
       document.getElementById("switch_default").checked = false;
       // mobile
-      document.getElementById("mobile-toggle-theme").innerText = " · Dark";
+      document.getElementById("mobile-toggle-theme").innerText = " · Light";
+      setBackground('0,0,0');
     }
     _Blog.toggleTheme = function() {
       if (isDark) {
@@ -67,8 +69,8 @@ document.ready(
           setBackground('255,255,255');
         }
         window.localStorage && window.localStorage.setItem('theme', document.body.classList.contains('dark-theme') ? 'dark' : 'light');
-      })
-      // moblie
+      });
+      // mobile
       document.getElementById('mobile-toggle-theme').addEventListener('click', () => {
         if (document.getElementsByTagName('body')[0].classList.contains('dark-theme')) {
           document.getElementsByTagName('body')[0].classList.remove('dark-theme');
@@ -82,12 +84,11 @@ document.ready(
           setBackground('255,255,255');
         }
         window.localStorage && window.localStorage.setItem('theme', document.body.classList.contains('dark-theme') ? 'dark' : 'light');
-      })
+      });
     };
     _Blog.toggleTheme();
 
     // ready function.
-    setBackground('0,0,0');
   }
 );
 
