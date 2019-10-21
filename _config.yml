@@ -15,15 +15,15 @@ timezone:
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://www.jaredible.net
 root: /
-permalink: :year/:month/:day/:title/
+permalink: posts/:title/
 permalink_defaults:
 
 # Directory
 source_dir: source
 public_dir: public
 tag_dir: tags
-archive_dir: archives
-category_dir: categories
+archive_dir: posts
+category_dir: category
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:

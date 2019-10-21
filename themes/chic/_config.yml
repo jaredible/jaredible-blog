@@ -3,7 +3,7 @@ navname: Jaredible
 
 # navigatior items
 nav:
-  Posts: /archives
+  Posts: /posts
   Categories: /category
   Tags: /tag
   Collections: /collection
