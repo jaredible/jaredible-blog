@@ -40,12 +40,10 @@ document.ready(
       document.getElementById("switch_default").checked = true;
       // mobile
       document.getElementById("mobile-toggle-theme").innerText = " · Dark";
-      setBackground('255,255,255');
     } else {
       document.getElementById("switch_default").checked = false;
       // mobile
       document.getElementById("mobile-toggle-theme").innerText = " · Light";
-      setBackground('0,0,0');
     }
     _Blog.toggleTheme = function() {
       if (isDark) {
@@ -57,6 +55,7 @@ document.ready(
         document.getElementsByTagName('body')[0].classList.remove('dark-theme');
         // mobile
         document.getElementById("mobile-toggle-theme").innerText = " · Light";
+        setBackground('0,0,0');
       }
       document.getElementsByClassName('toggleBtn')[0].addEventListener('click', () => {
         if (document.getElementsByTagName('body')[0].classList.contains('dark-theme')) {
@@ -95,8 +94,14 @@ document.ready(
 function setBackground(color) {
   var ele1 = document.getElementById('canvas-nest');
   var ele2 = document.getElementById('nest-canvas');
-  if (ele1) ele1.remove();
-  if (ele2) ele2.remove();
+  if (ele1) {
+    ele1.remove();
+    console.log("TEST1");
+  }
+  if (ele2) {
+    ele2.remove();
+    console.log("TEST2");
+  }
   var script = document.createElement('script');
   script.setAttribute('id', 'canvas-nest');
   script.setAttribute('type', 'text/javascript');
