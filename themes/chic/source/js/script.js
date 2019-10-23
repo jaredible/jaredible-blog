@@ -74,12 +74,12 @@ document.ready(
         if (document.getElementsByTagName('body')[0].classList.contains('dark-theme')) {
           document.getElementsByTagName('body')[0].classList.remove('dark-theme');
           // mobile
-          document.getElementById("mobile-toggle-theme").innerText = "· Light";
+          document.getElementById("mobile-toggle-theme").innerText = " · Light";
           setBackground('0,0,0');
         } else {
           document.getElementsByTagName('body')[0].classList.add('dark-theme');
           // mobile
-          document.getElementById("mobile-toggle-theme").innerText = "· Dark";
+          document.getElementById("mobile-toggle-theme").innerText = " · Dark";
           setBackground('255,255,255');
         }
         window.localStorage && window.localStorage.setItem('theme', document.body.classList.contains('dark-theme') ? 'dark' : 'light');
