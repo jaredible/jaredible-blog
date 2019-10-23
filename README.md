@@ -14,7 +14,7 @@ $ cd jaredible.net
 $ npm install
 ```
 
-## Deployment
+### Deployment
 
 ```
 $ npm run server
