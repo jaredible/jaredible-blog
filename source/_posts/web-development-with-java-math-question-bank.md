@@ -1,5 +1,5 @@
 ---
-title: "Android Intro Slider And Splash Screen"
+title: "Web Development with Java: Math Question Bank"
 date: 2019-11-18 21:55:40
 category: College
 tags:
@@ -17,11 +17,11 @@ I will be using the Eclipse IDE for Java EE developers. We will be creating Serv
 
 We will begin by creating a new dynamic web project in Eclipse and then followed by creating the basic Servlet, JSP, DAO, and JavaBean files.
 
-# Math Question Bank Example
+## Math Question Bank Example
 
 This example java web application is made to be simple as possible so you can use this as a base framework and can be enhanced and edited according to your preferences.
 
-# 1. New Dynamic Web Project
+## 1. New Dynamic Web Project
 To demonstrate the Android examples in this lesson, we will make a [Maven](https://www.google.com) based project and start adding relevant examples.
 
 For Kotlin support, we need to add a single dependency in *pom.xml* file:
@@ -36,9 +36,9 @@ For Kotlin support, we need to add a single dependency in *pom.xml* file:
 </dependencies>
 ```
 
-# 2. Test2
+## 2. Test2
 Testing3
 ![alt text](https://i.kym-cdn.com/photos/images/original/000/873/448/f84.jpg)
 
-# 3. Test3
+## 3. Test3
 Testing3
