@@ -223,11 +223,11 @@
       value: function() {
         var e = this;
         d(this.el, function() {
-          e.canvas.width = e.el.clientWidth, e.canvas.height = e.el.clientHeight
+          //e.canvas.width = e.el.clientWidth, e.canvas.height = e.el.clientHeight
         }), this.onmousemove = window.onmousemove, window.onmousemove = function(t) {
-          e.current.x = t.clientX - e.el.offsetLeft + document.scrollingElement.scrollLeft, e.current.y = t.clientY - e.el.offsetTop + document.scrollingElement.scrollTop, e.onmousemove && e.onmousemove(t)
+          //e.current.x = t.clientX - e.el.offsetLeft + document.scrollingElement.scrollLeft, e.current.y = t.clientY - e.el.offsetTop + document.scrollingElement.scrollTop, e.onmousemove && e.onmousemove(t)
         }, this.onmouseout = window.onmouseout, window.onmouseout = function() {
-          e.current.x = null, e.current.y = null, e.onmouseout && e.onmouseout()
+          //e.current.x = null, e.current.y = null, e.onmouseout && e.onmouseout()
         }
       }
     }, {

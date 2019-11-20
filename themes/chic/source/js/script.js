@@ -96,11 +96,9 @@ function setBackground(color) {
   var ele2 = document.getElementById('nest-canvas');
   if (ele1) {
     ele1.remove();
-    console.log("TEST1");
   }
   if (ele2) {
     ele2.remove();
-    console.log("TEST2");
   }
   var script = document.createElement('script');
   script.setAttribute('id', 'canvas-nest');

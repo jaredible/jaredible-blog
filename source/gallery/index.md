@@ -1,5 +1,5 @@
 ---
-title:
+title: Gallery
 layout: gallery
 ---
 <br>
